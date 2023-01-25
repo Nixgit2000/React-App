@@ -4,7 +4,14 @@ import './App.css';
 function App2() {
   return (
     <div className="App2">
-<h3>Dev stuff...</h3>
+<ul>
+  <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
+  <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
+  <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
+  <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
+  <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
+  <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
+</ul>
     </div>
   );
 }
