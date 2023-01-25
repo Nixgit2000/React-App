@@ -11,6 +11,12 @@ function App2() {
   <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
   <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
   <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
+  <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
+  <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
+  <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
+  <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
+  <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
+  <input className="button" type="checkbox"></input> <input className="fill"></input><br></br>
 </ul>
     </div>
   );
