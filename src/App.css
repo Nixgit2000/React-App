@@ -1,37 +1,60 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
-.App {
-  height: 25vh;
-font-size: 4vh;
-text-align: center;
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
+@font-face { font-family: JP; src: url('../fonts/JurassicParkFont.ttf'); } 
 
-background-color: blue;
+.App {
+  font-family: JP;
+  height: 25vh;
+  font-size: 16vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(darkblue, white);
+  text-shadow: 1px 1px black;
+
 }
 
 .App2 {
   margin: auto;
-  height: 75vh;
-  width: 60vw;
-font-size: 4vh;
-text-align: center;
-color: black;
-background-color: grey;
-list-style-position: inside;
+  height: 70vh;
+  width: 40vw;
+  font-size: 4vh;
+  text-align: center;
+  color: black;
+  background: linear-gradient(grey, darkgrey);
+  list-style-position: inside;  
+}
 
+.App3 {
+  margin: auto;
+  height: 5vh;
+  width: 100vw;
+  font-size: 2vh;
+  color: white;
+  background: linear-gradient(grey, black);
+  list-style-position: inside;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Times;
 }
 
 .fill {
   display: inline-block;
 }
 .button {
+  display: inline-block;
+}
+.button1 {
+  width: 10vw;
   display: inline-block;
 }
 
@@ -55,16 +78,13 @@ input {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 20s linear;
   }
 }
 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-
-
-
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -75,9 +95,9 @@ input {
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+  transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+  transform: rotate(360deg);
   }
 }
